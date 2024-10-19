@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: #f9f3f1;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background-color: #b48b7d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 4px solid #6d6d6c;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f8f6f4;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #90908f;
+}
+
+main {
+    padding: 40px;
+    background-color: #F0F8FF;
+}
+
+.section {
+    margin-bottom: 50px;
+    border-left: 6px solid #90908f;
+    padding-left: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #b48b7d;
+}
+
+.video {
+    margin-top: 20px;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 4px solid #90908f;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-container {
+    width: 150px;
+    height: 150px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Nueva sección de enlaces */
+.enlaces {
+    list-style: none;
+    padding-left: 0;
+}
+
+.enlaces li {
+    margin-bottom: 10px;
+}
+
+.enlaces li a {
+    color: #ccaea4;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.enlaces li a:hover {
+    color: #b48b7d;
+    text-decoration: underline;
+}
+
+/* Estilo del botón */
+button {
+    background-color: #b48b7d; /* Color de fondo similar al de la imagen */
+    color: white; /* Color del texto */
+    font-size: 16px; /* Tamaño del texto */
+    border: none; /* Sin borde */
+    padding: 10px 40px; /* Espaciado interno */
+    border-radius: 20px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar de color */
+}
+
+button:hover {
+    background-color: #a17a6c; /* Cambio de color al hacer hover */
+}

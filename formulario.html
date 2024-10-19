@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen de Estilo para Novias</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/script.js"></script>
+    </head>
+    <body>
+<div class="container">
+<h1>Examen de Estilo para Novias</h1>
+<form id="examen">
+    <div class="question">
+        <p>1. ¿Qué tipo de escote prefieres para tu vestido de novia?</p>
+        <label><input type="radio" name="q1" value="a"> Corazón</label>
+        <label><input type="radio" name="q1" value="b"> Cuadrado</label>
+        <label><input type="radio" name="q1" value="c"> En V</label>
+        <label><input type="radio" name="q1" value="d"> Ilusión</label>
+        </div>
+
+    <div class="question">
+        <p>2. Verdadero o Falso: Los vestidos de seda deben guardarse en una funda
+        transpirable.</p>
+        <label><input type="radio" name="q2" value="true"> Verdadero</label>
+        <label><input type="radio" name="q2" value="false"> Falso</label>
+        </div>
+
+    <div class="question">
+        <p>3. ¿Qué tipo de falda prefieres?</p>
+        <label><input type="radio" name="q3" value="a"> Corte A</label>
+        <label><input type="radio" name="q3" value="b"> Sirena</label>
+        <label><input type="radio" name="q3" value="c"> Princesa</label>
+        <label><input type="radio" name="q3" value="d"> Tubo</label>
+        </div>
+
+    <div class="question">
+        <p>4. Verdadero o Falso: Es mejor planchar un vestido de novia a alta
+        temperatura.</p>
+        <label><input type="radio" name="q4" value="true"> Verdadero</label>
+        <label><input type="radio" name="q4" value="false"> Falso</label>
+        </div>
+
+    <div class="question">
+        <p>5.¿Cuál es tu presupuesto para la boda</p>
+        <label><input type="radio" name="q5" value="a"> Menos de $15,000</label>
+        <label><input type="radio" name="q5" value="b"> Entre  $15,000 a $24,000</label>
+        <label><input type="radio" name="q5" value="c"> Entre $25,000 a $34,000 </label>
+        <label><input type="radio" name="q5" value="d"> Mas de $35,000</label>
+        </div>
+
+    <div class="question">
+        <p>6. Verdadero o Falso: Es más recomendable elegir un vestido con demasiados adornos
+        para garantizar que se vea más llamativo.</p>
+        <label><input type="radio" name="q6" value="true"> Verdadero</label>
+        <label><input type="radio" name="q6" value="false"> Falso</label>
+        </div>
+
+    <div class="question">
+        <p>7. ¿Qué tan importante es la personalización o diseño a medida para ti?</p>
+        <label><input type="radio" name="q7" value="a"> Muy importante</label>
+        <label><input type="radio" name="q7" value="b"> Algo importante</label>
+        <label><input type="radio" name="q7" value="c"> No muy importante</label>
+        <label><input type="radio" name="q7" value="d"> No es importante</label>
+        </div>
+
+    <div class="question">
+        <p>8.¿Te gustaría añadir algún detalle especial en el vestido? 
+        (e.g., pedrería, bordados)</p>
+        <label><input type="radio" name="q8" value="a"> Sí, definitivamente</label>
+        <label><input type="radio" name="q8" value="b"> Me gustaría, pero no es esencial</label>
+        <label><input type="radio" name="q8" value="c"> No, prefiero algo sencillo</label>
+        <label><input type="radio" name="q8" value="d"> No estoy segura</label>
+        </div>
+
+    <div class="question">
+        <p>9. Verdadero o Falso:Un vestido de novia a medida siempre es la mejor opción,
+        independientemente del presupuesto.</p>
+        <label><input type="radio" name="q9" value="true"> Verdadero</label>
+        <label><input type="radio" name="q9" value="false"> Falso</label>
+        </div>
+
+    <div class="question">
+        <p>10. ¿Cuál es la temporada en la que te casarás y 
+        cómo influye esto en la elección de tu vestido?.</p>
+        <label><input type="radio" name="q10" value="a"> Primavera (Vestido ligero, tejidos frescos)</label>
+        <label><input type="radio" name="q10" value="b"> Verano (Vestido sin mangas, tela transpirable)</label>
+        <label><input type="radio" name="q10" value="c"> Otoño (Vestido con mangas largas o media manga)</label>
+        <label><input type="radio" name="q10" value="d"> Invierno (Vestido con mangas largas y materiales más gruesos)</label>
+        </div>
+
+        
+<button type="button" onclick="calificar()">Enviar</button>
+
+</form>
+
+<div id="resultado"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
